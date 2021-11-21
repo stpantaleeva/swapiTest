@@ -42,7 +42,7 @@
 				"body": {
 					"mode": "graphql",
 					"graphql": {
-						"query": "query { \r\n    allPeople { \r\n        people { \r\n            name\r\n            id\r\n            birthYear\r\n            eyeColor\r\n            homeworld { \r\n                name\r\n                } \r\n            species { \r\n                name \r\n                }\r\n        } \r\n    }\r\n}\r\n",
+						"query": "query { \r\n    allPeople { \r\n        people { \r\n            name\r\n            birthYear\r\n            homeworld { \r\n                name\r\n            } \r\n            eyeColor\r\n            species { \r\n                name \r\n            }\r\n        } \r\n    }\r\n}\r\n",
 						"variables": ""
 					}
 				},
